@@ -40,16 +40,16 @@ NEW_MEMBER = """
 
 ✦✧✦✧✦✧
 """
-api_id = os.environ.get("APP_ID")
-api_hash = os.environ.get("API_HASH")
+api_id = 11965422
+api_hash = "93e6c27cbb4c4a3dbb29181a3f5e5c76"
 token = os.environ.get("TOKEN")
-OWNER_NAME = os.environ("OWNER_NAME")
+OWNER_NAME = 𓆩᪵✘𝕯𓆪™ 𓆩𝘽𝙊𝘿𝙔𓆪 |🇪🇬| 𓆩𔘓𓆪
 
 app = Client("yt", bot_token=token, api_id = api_id, api_hash = api_hash)
 BOT_TOKEN = token
-CHANNEL = os.environ("CHANNEL")
-OWNER = os.environ("OWNER")
-con3 = os.environ("CONTACT")
+CHANNEL = "pyth_on3"
+OWNER = 5701042002
+con3 = +201019715490
 
 @app.on_message(ay.command("start"))
 async def st(client,message):
