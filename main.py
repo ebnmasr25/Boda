@@ -40,7 +40,7 @@ NEW_MEMBER = """
 
 ✦✧✦✧✦✧
 """
-api_id = int(os.environ.get("APP_ID"))
+api_id = os.environ.get("APP_ID")
 api_hash = os.environ.get("API_HASH")
 token = os.environ.get("TOKEN")
 OWNER_NAME = os.environ("OWNER_NAME")
