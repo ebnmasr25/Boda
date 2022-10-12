@@ -275,8 +275,7 @@ async def getl(client,message):
 	await app.send_document(
 	message.chat.id,
 	document=filename,
-	caption="**users Stats {}".format(stats),
-	quote=False
+	caption="**users Stats {}".format(stats)
 	)
 	await m.delete()
 	os.remove(filename)
